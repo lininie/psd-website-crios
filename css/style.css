@@ -1,0 +1,40 @@
+/* ---元素样式--- */
+
+
+h3{
+    font-size: 1em;
+    margin: .5em auto;
+}
+
+section {
+    padding: 1em;
+    border: 1px solid black;
+    margin: 1em auto;
+}
+
+button {
+    margin: 1em;
+}
+/* ---基本样式--- */
+
+/* ---区域样式--- */
+/* ---导航栏区域--- */
+
+
+
+/* ---区域1--- */
+
+
+
+/* ---区域2--- */
+
+.second-icon {
+    margin-top: 2em;
+}
+
+/* ---区域--- */
+
+
+
+/* ---区域--- */
+
