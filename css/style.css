@@ -1,14 +1,21 @@
 /* ---元素样式--- */
-
+h1 {
+    margin: 0;
+    color: #43a9ff;
+}
 
 h3{
     font-size: 1em;
     margin: .5em auto;
 }
 
+p {
+    color: #c0c5c9;
+    font-size: 1.2em;
+}
+
 section {
     padding: 1em;
-    border: 1px solid black;
     margin: 1em auto;
 }
 
@@ -16,6 +23,18 @@ button {
     margin: 1em;
 }
 /* ---基本样式--- */
+.btn-circle {
+    width: 45px;
+    height: 45px;
+}
+
+.btn-round {
+    margin: 2em auto;
+    font-size: 1em;
+    background-color: #fff;
+    color: #43a9ff;
+    border-radius: 15px;
+}
 
 /* ---区域样式--- */
 /* ---导航栏区域--- */
@@ -23,8 +42,20 @@ button {
 
 
 /* ---区域1--- */
+h1+p {
+    color: #e4e6e8;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
-
+.img-horse-gradient {
+    width: 100em;
+    height: 50em;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(204,213,221,0) 17%, rgba(204,213,221,0) 86%, rgba(255,255,255,1) 100%), 
+    url("../img/snow-horse.jpg") no-repeat center;
+    
+}
 
 /* ---区域2--- */
 
