@@ -10,38 +10,52 @@
   <meta name="author" content="GuoJian">
   <title>Crios - Psd To Website</title>
 
-  <link rel="stylesheet" href="css/normalize.css"> 
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <!--
+
+  <link rel="stylesheet" href="css/material.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   -->
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
-  
+
 </head>
 
 <body>
   <!--Head-->
+  
+
   <section id="head">
     <div class="row justify-content-between">
-      <div class="col-2">
-        <div>
-        <button class="btn-circle"><i class="fa fa-bars" aria-hidden="true"></i></button>
-        </div>
-      </div>
-      <div class="col-6 text-center d-flex justify-content-center">
-        <div class=" slogan blue-shadow ">
-          <h1>CRIOS</h1>
-          <p>FREE PSD TEMPLATE</p>
-        </div>
-      </div>
-      <div class="col-2 text-right">
-        <button class="btn-circle"><i class="fa fa-search" aria-hidden="true"></i></i></button>
+    <div class="col-2">
+      <div>
+        <button id="demo-menu-lower-left" class="btn-circle"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
+        <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left">
+          <li class="mdl-menu__item"><a href="#head">Action 1</a></li>
+          <li class="mdl-menu__item"><a href="#second">Action 2</a></li>
+          <li class="mdl-menu__item"><a href="#third">Action 3</a></li>
+          <li class="mdl-menu__item"><a href="#fourth">Action 4</a></li>
+          <li class="mdl-menu__item"><a href="#fifth">Action 5</a></li>
+          <li class="mdl-menu__item"><a href="#sixth">Action 6</a></li>
+        </ul>
       </div>
     </div>
+    <div class="col-6 text-center d-flex justify-content-center">
+      <div class=" slogan blue-shadow ">
+        <h1>CRIOS</h1>
+        <p>FREE PSD TEMPLATE</p>
+      </div>
+    </div>
+    <div class="col-2 text-right">
+      <button class="btn-circle"><i class="fa fa-search" aria-hidden="true"></i></i></button>
+    </div>
+  </div>
     <div class="row justify-content-center">
       <h2 class="text-center">Simple PSD template with cool stuff</h2>
     </div>
@@ -120,7 +134,7 @@
   </section>
 
   <!--Third Part-->
-  <section>
+  <section id="third">
     <div class="row photo-intro">
       <div class="col-xs-12 col-md-6">
         <img class="img-fluid" src="img/Photo-1.jpg" />
@@ -145,7 +159,7 @@
   </section>
 
   <!--Fourth Part-->
-  <section>
+  <section id="fourth">
     <div class="row">
       <div class="col-xs-12 col-md-6 ">
         <img class="img-fluid" src="img/app-screen-1.jpg" />
@@ -206,8 +220,8 @@
 
   <script src="js/jquery-3.2.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="js/material.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <!--<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>-->
   <script src="js/script.js"></script>
 </body>
 

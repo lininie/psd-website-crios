@@ -1,6 +1,7 @@
 /**---元素样式---**/
 body {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 p {
@@ -14,22 +15,8 @@ button {
     background-color: #fff;
     color: #43a9ff;
     box-shadow:  0 4px 8px 0 rgba(67, 169, 255, 0.2), 0 6px 20px 0 rgba(67, 169, 255, 0.19);
-    outline: none;
+    outline: none;   
 }
-
-button.btn-circle {
-
-    border-radius: 100%;
-    outline: none;
-}
-
-button.btn-round {
-    padding: .5em 1.8em;
-
-    border-radius: 20px;
-    outline: none;
-}
-
 
 /**---基本样式---**/
 
@@ -42,14 +29,36 @@ button.btn-round {
     box-shadow:  0 4px 8px 0 rgba(67, 169, 255, 0.2), 0 6px 20px 0 rgba(67, 169, 255, 0.19);
 }
 
+button.btn-circle {
+    border-radius: 100%;
+    outline: none;
+}
+
+button.btn-round {
+    padding: .5em 1.8em;
+    border-radius: 20px;
+    outline: none;
+}
+
+button:active,
+button.btn-circle:active,
+button.btn-round:active {
+  transform: translateY(5px);
+}
+
+
 /**---区域样式---**/
 /**---区域1---**/
+
 #head .row:first-child .col-2 {
+    padding-top: 2em;
+}
+#head .row:nth-child(2){
     padding-top: 2em;
 }
 
 #head .row:nth-child(2) h2{
-    padding-top: 4em;
+    padding-top: 3em;
 }
 
 #head .row:nth-child(3) p{
