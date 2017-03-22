@@ -1,71 +1,155 @@
-/* ---元素样式--- */
-h1 {
-    margin: 0;
-    color: #43a9ff;
-}
-
-h3{
-    font-size: 1em;
-    margin: .5em auto;
+/**---元素样式---**/
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    color: #c0c5c9;
-    font-size: 1.2em;
-}
-
-section {
-    padding: 1em;
-    margin: 1em auto;
+    color: #b9bdc2;
 }
 
 button {
-    margin: 1em;
-}
-/* ---基本样式--- */
-.btn-circle {
-    width: 45px;
-    height: 45px;
-}
-
-.btn-round {
-    margin: 2em auto;
-    font-size: 1em;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
     background-color: #fff;
     color: #43a9ff;
-    border-radius: 15px;
+    box-shadow:  0 4px 8px 0 rgba(67, 169, 255, 0.2), 0 6px 20px 0 rgba(67, 169, 255, 0.19);
+    outline: none;
 }
 
-/* ---区域样式--- */
-/* ---导航栏区域--- */
+button.btn-circle {
 
-
-
-/* ---区域1--- */
-h1+p {
-    color: #e4e6e8;
-    font-size: 1.5em;
-    font-weight: bold;
+    border-radius: 100%;
+    outline: none;
 }
 
-.img-horse-gradient {
-    width: 100em;
-    height: 50em;
-    background-size: cover;
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(204,213,221,0) 17%, rgba(204,213,221,0) 86%, rgba(255,255,255,1) 100%), 
-    url("../img/snow-horse.jpg") no-repeat center;
-    
+button.btn-round {
+    padding: .5em 1.8em;
+
+    border-radius: 20px;
+    outline: none;
 }
 
-/* ---区域2--- */
 
-.second-icon {
-    margin-top: 2em;
+/**---基本样式---**/
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
-/* ---区域--- */
+.blue-shadow {
+    box-shadow:  0 4px 8px 0 rgba(67, 169, 255, 0.2), 0 6px 20px 0 rgba(67, 169, 255, 0.19);
+}
+
+/**---区域样式---**/
+/**---区域1---**/
+#head .row:first-child .col-2 {
+    padding-top: 2em;
+}
+
+#head .row:nth-child(2) h2{
+    padding-top: 4em;
+}
+
+#head .row:nth-child(3) p{
+    padding-top: 1em;
+    padding-bottom: 4em;
+}
+
+#head .row:nth-child(4) {
+    padding-bottom: 2em;
+}
+
+.slogan {
+    padding-top: 2em;
+    width: 20em;
+    height: 10em; 
+    border-bottom-left-radius: 20em;
+    border-bottom-right-radius: 20em;
+}
+
+.blue-shadow h1 {
+    color: #43a9ff;
+}
+
+/**---区域2---**/
+
+#second .row:nth-child(2) h2 {
+    padding-bottom: 2.5em;
+}
+
+#second .row:nth-child(3) {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#second .row:nth-child(3) h3 {
+    font-size: 1.1em;
+    padding: 1.2em 0;
+}
+
+#second .row:nth-child(4){
+    padding: 6em 0;
+}
 
 
+/**---区域3---**/
 
-/* ---区域--- */
+.photo-intro div {
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.intro-words {
+    background-color: #f7f8fb;
+}
+.intro-words h2 {
+    padding-top: 1em;
+}
+.intro-words p {
+    padding: 1em;
+}
+
+/**---区域4---**/
+
+.intro-app h2 {
+    padding-top: 1em;
+    color: #43a9ff;
+}
+.intro-app p {
+    padding: 1em;
+}
+
+/**---区域5---**/
+
+#fifth .row {
+    background-color: #f0f3fa;
+}
+
+.intro-man h2{
+    padding-top: 1em;
+    color: #fe3254
+}
+
+.intro-man h3{
+    font-size: 1.2em;
+}
+
+.intro-man h3:last-child {
+    color: #ccd0d5;
+}
+
+.intro-man p {
+    padding: 1em 0;
+}
+
+/**---区域6---**/
+
+#sixth .row:first-child p {
+    padding-top: 5em;
+}
+
+#sixth .row:first-child h2 {
+    padding-bottom: 3em;
+}
